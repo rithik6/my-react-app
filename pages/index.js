@@ -9,5 +9,5 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   const router = useRouter();
 
-  return (<h1> Hello {router.query.name}</h1>)
+  return (<h1>{router.query.name ? `Hello,${router.query.name} `: "I dont know ur name"} </h1>)
 }

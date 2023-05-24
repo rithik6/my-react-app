@@ -9,5 +9,5 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   const router = useRouter();
 
-  return (<h1 style = "blue"> Hello Abhishek is a good boy</h1>)
+  return (<h1 style = {{color = "blue"}}> Hello Abhishek is a good boy</h1>)
 }
